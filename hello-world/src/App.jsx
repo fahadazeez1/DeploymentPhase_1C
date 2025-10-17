@@ -15,7 +15,7 @@ function App() {
     e.preventDefault();
     setIsLoading(true); // Start loading
     setMessage(""); // Clear previous message
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8081";
+const API_URL = import.meta.env.VITE_API_URL ;
 
     // const API_URL = "http://localhost:8081";
     // const API_URL = "http://localhost:8081"||process.env.REACT_APP_API_URL;
